@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — raw files are NOT committed (too large / download instructions in README)
+data/raw/*.xlsx
+data/raw/*.csv
+data/raw/*.zip
+# Processed files kept if under 25 MB — else add here
+# data/processed/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# SHAP cache
+shap_cache/
