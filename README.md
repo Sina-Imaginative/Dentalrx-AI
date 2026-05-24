@@ -1,5 +1,7 @@
 # DentalRx AI
 
+**Live dashboard:** https://dentalrx-ai-sinasystems.streamlit.app
+
 **Machine learning-based detection of regional anomalies in NHS dental antibiotic prescribing: a proof-of-concept decision support tool benchmarked against 2024 ADA/AAOS guidelines**
 
 > Manuscript submitted to *JMIR Medical Informatics* (Q1, IF 3.8) · Preprint on medRxiv  
