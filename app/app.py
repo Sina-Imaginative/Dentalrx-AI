@@ -417,9 +417,16 @@ with tab3:
         x=guideline_date,
         line_dash="dash",
         line_color="#f4a261",
-        line_width=2,
-        annotation_text="Nov 2024 ADA/AAOS revision",
-        annotation_position="top left"
+        line_width=2
+    )
+    fig1.add_annotation(
+        x=guideline_date,
+        y=1,
+        yref="paper",
+        text="Nov 2024 ADA/AAOS revision",
+        showarrow=False,
+        xanchor="left",
+        font=dict(color="#f4a261", size=11)
     )
 
     fig1.update_layout(
@@ -449,9 +456,16 @@ with tab3:
         x=guideline_date,
         line_dash="dash",
         line_color="#f4a261",
-        line_width=2,
-        annotation_text="Nov 2024 ADA/AAOS revision",
-        annotation_position="top left"
+        line_width=2
+    )
+    fig2.add_annotation(
+        x=guideline_date,
+        y=1,
+        yref="paper",
+        text="Nov 2024 ADA/AAOS revision",
+        showarrow=False,
+        xanchor="left",
+        font=dict(color="#f4a261", size=11)
     )
 
     fig2.update_layout(
