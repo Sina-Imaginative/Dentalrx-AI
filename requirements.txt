@@ -1,33 +1,9 @@
-# DentalRx AI — pinned dependencies
-# Python 3.10+
-# Install: pip install -r requirements.txt
-
-# Data handling
+streamlit==1.35.0
 pandas==2.2.2
 numpy==1.26.4
-openpyxl==3.1.2          # reading NHSBSA Excel files
-
-# Machine learning
-scikit-learn==1.5.0       # IsolationForest
-
-# Explainability
-shap==0.45.1
-
-# Visualisation
 plotly==5.22.0
-folium==0.16.0            # choropleth map of England ICBs
-
-# Dashboard
-streamlit==1.35.0
-
-# Geospatial (ICB boundary GeoJSON)
-geopandas==0.14.4
-
-# Utilities
-scipy==1.13.0
-tqdm==4.66.4              # progress bars during data loading
-python-dateutil==2.9.0
-
-# Development / testing
-pytest==8.2.2
-jupyter==1.0.0
+folium==0.16.0
+streamlit-folium==0.20.0
+scikit-learn==1.5.0
+shap==0.45.1
+openpyxl==3.1.2
